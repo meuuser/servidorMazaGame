@@ -5,8 +5,13 @@
 						<div class="hero-copy">
 	                        <h1 class="hero-title mt-0">Seja bem vindo ao servidor do Aplicativo eMazaGame</h1>
 	                        <p class="hero-paragraph">Este servidor processa todas as informacoes utilizadas do aplicatrivo eMazaGame, somente usuarios permitidos tem acesso a area restrita deste servidor.</p>
-	                        <div class="hero-cta"><a class="button button-primary" href="#">Baixar o Aplicativo</a><a class="button" href="admin">Entrar</a></div>
-						</div>
+	                        <div class="hero-cta"><a class="button button-primary" href="#">Baixar o Aplicativo</a>
+                            
+
+                            <a class="button" href="admin/profile">Perfil</a></div>
+
+
+                        </div>
 						<div class="hero-figure anime-element">
 							<svg class="placeholder" width="528" height="396" viewBox="0 0 528 396">
 								<rect width="528" height="396" style="fill:transparent;" />
