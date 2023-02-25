@@ -6,9 +6,14 @@
 	                        <h1 class="hero-title mt-0">Seja bem vindo ao servidor do Aplicativo eMazaGame</h1>
 	                        <p class="hero-paragraph">Este servidor processa todas as informacoes utilizadas do aplicatrivo eMazaGame, somente usuarios permitidos tem acesso a area restrita deste servidor.</p>
 	                        <div class="hero-cta"><a class="button button-primary" href="#">Baixar o Aplicativo</a>
-                            
+                        @if(auth())
 
-                            <a class="button" href="admin/profile">Perfil</a></div>
+                            <a class="button" href="/admin/profile">Perfil</a></div>
+
+                            @else
+                            <a class="button" href="/admin">Entrar</a>
+
+                            @endif
 
 
                         </div>

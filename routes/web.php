@@ -17,6 +17,7 @@ Route::get('/',[GenericController::class, 'landing']);
 Route::get('/generate-token',[GenericController::class, 'generateToken']);
 
 
+
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });

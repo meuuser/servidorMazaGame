@@ -16,7 +16,7 @@ class GenericController extends Controller
     public function generateToken (Request $request){
 
         //TODO: Verificar se o user e administrador
-         if(auth()->user()->hasRole('admin')){
+            if(auth()->user()->hasRole('admin')){
 
         $user = User::find(auth()->id());
         $token = $user->createToken($user->name. '\'s token')->accessToken;
